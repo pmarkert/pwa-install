@@ -368,7 +368,7 @@
 
                         border-radius: 6px;
 
-                        #pwa-share, #pwa-add, #pwa-safari, #safari-dots{
+                        #pwa-share, #pwa-add, #pwa-safari, #safari-dots, #pwa-view-more{
                             margin: 0 auto;
                         }
                         #pwa-share{
@@ -806,6 +806,11 @@
                                 width: 18px;
                                 transform: none;
                                 
+                            }
+                            #pwa-view-more{
+                                width: 18px;
+                                margin: 0 auto;
+                                transform: none;
                             }
                         }
                     }

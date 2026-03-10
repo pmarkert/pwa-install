@@ -31,26 +31,6 @@ const template = (name: string, description: string, installDescription: string,
                 : '' }
                 <div class="how-to-body">
                     <div class="how-to-description">
-                        ${!isDesktop? html`
-                        <div class="description-step">
-                            <div class="svg-wrap">
-                                <svg id="pwa-safari" viewBox="0 0 20.283 19.932" width="24" height="24">
-                                    <g fill="currentColor"><path d="M9.96 19.922c5.45 0 9.962-4.522 9.962-9.961C19.922 4.51 15.4 0 9.952 0 4.511 0 0 4.512 0 9.96c0 5.44 4.521 9.962 9.96 9.962Zm0-1.66A8.26 8.26 0 0 1 1.67 9.96c0-4.61 3.672-8.3 8.281-8.3 4.61 0 8.31 3.69 8.31 8.3 0 4.61-3.69 8.3-8.3 8.3Z"/><path d="m5.87 14.883 5.605-2.735a1.47 1.47 0 0 0 .683-.673l2.725-5.596c.312-.664-.166-1.182-.85-.84L8.447 7.764c-.302.136-.508.341-.674.673L5.03 14.043c-.312.645.196 1.152.84.84Zm4.09-3.72A1.19 1.19 0 0 1 8.77 9.97c0-.664.527-1.201 1.19-1.201a1.2 1.2 0 0 1 1.202 1.2c0 .655-.537 1.192-1.201 1.192Z"/></g>
-                                </svg>
-                            </div>
-                            <div class="step-text">${msg('Open in your main browser')}</div>
-                        </div>`: ''}
-                        ${!isDesktop && !Utils.isAppleMobileNonSafari() && !Utils.isIPad()? html`
-                        <div class="description-step">
-                            <div class="svg-wrap">
-                                <svg id="safari-dots" width="22" height="24" viewBox="0 0 24 24">
-                                    <circle cx="2" cy="12" r="2" fill="currentColor"/>
-                                    <circle cx="12" cy="12" r="2" fill="currentColor"/>
-                                    <circle cx="22" cy="12" r="2" fill="currentColor"/>
-                                </svg>
-                            </div>
-                            <div class="step-text">${msg('Press More if no Share icon')}</div>
-                        </div>`: ''}
                         <div class="description-step">
                             <div class="svg-wrap">
                                 <svg id="pwa-share" width="25" height="32" viewBox="0 0 17.695 26.475">
@@ -59,16 +39,14 @@ const template = (name: string, description: string, installDescription: string,
                             </div>
                             <div class="step-text">${msg('Press Share in Navigation bar')}</div>
                         </div>
-                        ${!isDesktop && Utils.isIPad()? html`
+                        ${!isDesktop? html`
                         <div class="description-step">
                             <div class="svg-wrap">
-                                <svg id="safari-dots" width="22" height="24" viewBox="0 0 24 24">
-                                    <circle cx="2" cy="12" r="2" fill="currentColor"/>
-                                    <circle cx="12" cy="12" r="2" fill="currentColor"/>
-                                    <circle cx="22" cy="12" r="2" fill="currentColor"/>
+                                <svg id="pwa-view-more" viewBox="2 4 20 14" width="24" height="24">
+                                    <path d="M12 16a.997.997 0 0 1-.707-.293l-8-8a1 1 0 0 1 1.414-1.414L12 13.586l7.293-7.293a1 1 0 0 1 1.414 1.414l-8 8A.997.997 0 0 1 12 16z" fill="currentColor"/>
                                 </svg>
                             </div>
-                            <div class="step-text">${msg('Press More in Share menu')}</div>
+                            <div class="step-text">${msg('Click "View More"')}</div>
                         </div>`: ''}
                         <div class="description-step">
                             <div class="svg-wrap">

@@ -50,10 +50,6 @@
         <source>Tap "Add to Home screen"</source>
         <target>Toca "Añadir a pantalla de inicio"</target>
       </trans-unit>
-      <trans-unit id="s386eca8362ff6155">
-        <source>Press More if no Share icon</source>
-        <target>Presiona Más si no hay icono de Compartir</target>
-      </trans-unit>
       <trans-unit id="sc16e00a7a8b2fde2">
         <source>Back</source>
         <target>Atrás</target>
@@ -61,10 +57,6 @@
       <trans-unit id="s681e399d63311fba">
         <source>Show Gallery</source>
         <target>Mostrar galería</target>
-      </trans-unit>
-      <trans-unit id="se0e473adfda8066c">
-        <source>Open in your main browser</source>
-        <target>Abre en tu navegador principal</target>
       </trans-unit>
       <trans-unit id="s224cbcec014ef6b5">
         <source>Press Share in Navigation bar</source>
@@ -74,9 +66,9 @@
         <source>Scroll down to "Add to Home Screen"</source>
         <target>Desplázate hacia abajo hasta "Añadir a pantalla de inicio"</target>
       </trans-unit>
-      <trans-unit id="s7f0591f08e318eda">
-        <source>Press More in Share menu</source>
-        <target>Presiona Más en el menú de Compartir</target>
+      <trans-unit id="seaa6a8dd6cfe4259">
+        <source>Click "View More"</source>
+        <target>Haz clic en "Ver más"</target>
       </trans-unit>
     </body>
   </file>

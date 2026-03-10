@@ -50,10 +50,6 @@
   <source>Add to Home Screen</source>
   <target>Pridať na domovskú obrazovku</target>
 </trans-unit>
-<trans-unit id="s386eca8362ff6155">
-  <source>Press More if no Share icon</source>
-  <target>Stlačte Viac, ak nevidíte ikonu Zdieľať</target>
-</trans-unit>
 <trans-unit id="sc16e00a7a8b2fde2">
   <source>Back</source>
   <target>Späť</target>
@@ -61,10 +57,6 @@
 <trans-unit id="s681e399d63311fba">
   <source>Show Gallery</source>
   <target>Zobraziť galériu</target>
-</trans-unit>
-<trans-unit id="se0e473adfda8066c">
-  <source>Open in your main browser</source>
-  <target>Otvorte v hlavnom prehliadači</target>
 </trans-unit>
 <trans-unit id="s224cbcec014ef6b5">
   <source>Press Share in Navigation bar</source>
@@ -74,9 +66,9 @@
   <source>Scroll down to "Add to Home Screen"</source>
   <target>Prejdite nadol k "Pridať na domovskú obrazovku"</target>
 </trans-unit>
-<trans-unit id="s7f0591f08e318eda">
-  <source>Press More in Share menu</source>
-  <target>Stlačte Viac v menu Zdieľať</target>
+<trans-unit id="seaa6a8dd6cfe4259">
+  <source>Click "View More"</source>
+  <target>Klikněte na "Zobrazit více"</target>
 </trans-unit>
 </body>
 </file>
